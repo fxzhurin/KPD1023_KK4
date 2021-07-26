@@ -33,24 +33,68 @@
       .menu li {
         float: right;
         border-left: 1px solid grey;
-        .menu a {
-          text-decoration: none;
-          display: block;
-          padding: 15px;
-        }
-        .menu li:hover {
-          background-color:antiquewhite;
-        }
-        .menu a:hover {
-          color: black;
-          font-weight: bold;
-        }
-          
-        
-        
-        
-        
-        
+      .menu a {
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+      }
+      .menu li:hover {
+        background-color:antiquewhite;
+      }
+      .menu a:hover {
+        color: black;
+        font-weight: bold;
+      }
+      /*SLIDER*/
+      .slider {
+        margin-top: 100px;
+      }
+      .mySlides {
+        width: 100%;
+        height: auto;
+      }
+      /*CONTENT*/
+      .kandungan {
+        background-image: linear-gradient(indigo,purple);;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .form {
+        border-radius: 5px;
+        width: 22%;
+        text-align: center;
+        padding: 10px;
+        margin-left: 2%;
+      }
+      .hantar {
+        border-radius: 5px;
+        width: 22%;
+        text-align-last: center;
+        padding: 10px;
+        margin-left: 2%;
+        background-color: wheat;
+      }
+      .hantar:hover {
+        background-color: yellow;
+      }
+      .table {
+        background-color: white;
+        width: 300px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      /*FOOTER*/
+      .kaki {
+        text-align: center;
+        padding: 5px;
+        background-color: indigo;
+        color: white;
+      }
+      *{
+        box-sizing: border-box;
+        margin: 0;
+      }
+         
     </style>
   </head>
   <body>
@@ -76,6 +120,56 @@
           <li><a href="#">Home</a></li>
       </ul>
     </div>
-                         
-                         
+    
+    <!--SLIDER-->
+    <div class="slider">
+          <img src="slideshow/slider_1.jpg" class="myslides">
+          <img src="slideshow/slider_1.jpg" class="myslides"> 
+          <img src="slideshow/slider_1.jpg" class="myslides">                                                  
+          <img src="slideshow/slider_1.jpg" class="myslides">                                                  
+    </div>
+                                                            
+    <script type="text/javascript" src="http://.........................></script>
+    
+    <!--CONTENT-->
+    <div class="kandungan">
+        <form action="">
+            <select class="form">
+                <option>Please Choose</option>
+                <option>Batu Caves,Malaysia</option>                                                              
+                <option>Taj Mahal, India</option>
+                <option>Eiffer Tower,Perancis</option>
+            </select>
+            <input type="date" class='form">
+            <input type="text" class="form" placeholder="Enquiry">
+            <input type="submit" value="Send Equiry" class="hantar">
+        </form>
+    
+        <marquee direction="">
+            <table border="2">
+              <tr>
+                <th>Landmark</th>
+                <th>Nation</th>
+              </tr>
+              <tr>
+                <td>KLCC</td>
+                <td>Malaysia</td>
+              </tr>
+              <tr>
+                <td>Stonehenge</td>
+                <td>United Kindom</td>
+              </tr>
+              <tr>
+                <td>Pyramid</td>
+                <td>Mesir</td>
+              </tr>
+            </table>
+        </marquee>
+    </div>
+  
+  <!--FOOTER-->
+  <div class="kaki">
+    <font>copyright &copy; All Rights Reserved 2021, Setia Travel Agency</font>
+  </div>
+
                                
